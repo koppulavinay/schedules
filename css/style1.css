@@ -1,0 +1,261 @@
+.herffs .btn{
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+.button{
+    min-height: 100vh;
+    padding: 40px 15px;
+    position: fixed;
+    z-index: 2;
+}
+
+.portfolio-section{
+    position: relative;
+}
+
+@keyframes zoomInOut{
+    0%,100%{
+        transform:scale(0.5);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+@keyframes bounceTop{
+    0%,100%{
+        transform: translateY(-50px);
+    }50%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+/*---------------------------
+Header section
+---------------------------*/
+.bg-circles{
+    position: fixed;
+    top: 0;
+    height: 100%;
+  
+    max-width: 1200px;
+    width: 80%;
+    z-index: -100;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bg-circles div{
+    position: absolute;
+    border-radius: 50%;
+}
+.bg-circles .circle-1{
+    height: 60px;
+    width: 60px;
+    background-color: var(--blue);
+    left: 5%;
+    top: 10%;
+    opacity: 0.3;
+    animation: zoomInOut 8s linear infinite;
+}
+
+.bg-circles .circle-2{
+    height: 80px;
+    width: 80px;
+    background-color: var(--main-color);
+    left:30%;
+    top: 50%;
+    opacity: 0.4;
+    animation: bounceTop 5s ease-in-out infinite;
+}
+
+
+.bg-circles .circle-3{
+    height: 120px;
+    width: 120px;
+    background-color: var(--white);
+    right: -60px;
+    top: 40%;
+    opacity: 0.6;
+    animation: bounceTop 3s ease-in-out infinite;
+}
+
+.bg-circles .circle-4{
+    height: 50px;
+    width: 50px;
+    background-color: var(--orange);
+   left: -30px;
+    top: 80%;
+    opacity: 0.6;
+    animation: bounceTop 5s ease-in-out infinite;
+   
+}
+    
+    /* if the browser window is at least 800px-s wide: */
+    @media(max-width:1025px){
+        .table thead tr{
+            font-size: 15px;}
+        .table tbody{
+                font-size: 15px;}
+        .table tbody p{
+       font-size: 15px;}
+        }
+        
+        @media(max-width:838px){
+            .table thead tr{
+                font-size: 10px;}
+            .table tbody{
+                    font-size: 10px;}
+            .table tbody p{
+           font-size: 10px;}
+           .bg-circles .circle-1{
+            width: 40px;
+            height: 40px;
+          }
+          .bg-circles .circle-2{
+            width: 60px;
+            height: 60px;
+          }
+          .bg-circles .circle-3{
+            width: 100px;
+            height: 100px;
+          }
+          .bg-circles .circle-4{
+            width: 40px;
+            height: 40px;
+          }
+        }
+        
+        @media(max-width:590px){
+            .table thead tr{
+                font-size: 8px;}
+            .table tbody{
+                    font-size: 8px;}
+            .table tbody p{
+           font-size: 8px;}
+           .bg-circles .circle-1{
+            width: 20px;
+            height: 20px;
+          }
+          .bg-circles .circle-2{
+            width: 60px;
+            height: 60px;
+          }
+          .bg-circles .circle-3{
+            width: 80px;
+            height: 80px;
+          }
+          .bg-circles .circle-4{
+            width: 30px;
+            height: 30px;
+          }
+        }
+        @media(max-width:493px){
+            .table thead tr{
+                font-size: 6px;}
+            .table tbody{
+                    font-size: 6px;}
+            .table tbody p{
+           font-size: 6px;}
+           .bg-circles .circle-1{
+            width: 20px;
+            height: 20px;
+          }
+          .bg-circles .circle-2{
+            width: 60px;
+            height: 60px;
+          }
+          .bg-circles .circle-3{
+            width: 80px;
+            height: 80px;
+          }
+          .bg-circles .circle-4{
+            width: 30px;
+            height: 30px;
+          }
+        }
+        @media(max-width:400px){
+            .table thead tr{
+                font-size: 5px;}
+            .table tbody{
+                    font-size: 5px;}
+            .table tbody p{
+           font-size: 5px;}
+           .bg-circles .circle-1{
+            width: 20px;
+            height: 20px;
+          }
+          .bg-circles .circle-2{
+            width: 60px;
+            height: 60px;
+          }
+          .bg-circles .circle-3{
+            width: 80px;
+            height: 80px;
+          }
+          .bg-circles .circle-4{
+            width: 30px;
+            height: 30px;
+          }
+        }
+        @media(max-width:350px){
+            .table thead tr{
+                font-size: 4px;}
+            .table tbody{
+                    font-size: 4px;}
+            .table tbody p{
+           font-size: 4px;}
+           .bg-circles .circle-1{
+            width: 20px;
+            height: 20px;
+          }
+          .bg-circles .circle-2{
+            width: 60px;
+            height: 60px;
+          }
+          .bg-circles .circle-3{
+            width: 80px;
+            height: 80px;
+          }
+          .bg-circles .circle-4{
+            width: 30px;
+            height: 30px;
+          }
+        }
+
+/* 
+    @media(min-width: 1000px) {
+        .table thead tr{
+            font-size: 18px;}
+        .table tbody{
+                font-size: 18px;}
+        .table tbody p{
+       font-size: 18px;}
+    }
+
+    @media(min-width: 950px) {
+        .table thead tr{
+            font-size: 10px;}
+            .table tbody{
+                font-size: 5px;}
+                .table tbody p{
+                    font-size: 5px;}
+      
+    } */
+    /* if the browser window is at least 1000px-s wide: */
+    /* @media screen and (min-width: 320px) {
+        .table thead tr{
+            font-size: 5px;}
+            .table tbody{
+                font-size: 5px;}
+                .table tbody p{
+                    font-size: 5px;}
+           }
+    
+     */
+
+
+   
