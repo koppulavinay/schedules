@@ -131,11 +131,14 @@ Header section
         
         @media(max-width:590px){
             .table thead tr{
-                font-size: 8px;}
+                font-size: 8px;
+            font-weight: 900;}
             .table tbody{
-                    font-size: 8px;}
+                    font-size: 8px;
+            font-weight: 900;}
             .table tbody p{
-           font-size: 8px;}
+           font-size: 8px;
+            font-weight: 900;}
            .bg-circles .circle-1{
             width: 20px;
             height: 20px;
@@ -155,11 +158,14 @@ Header section
         }
         @media(max-width:493px){
             .table thead tr{
-                font-size: 6px;}
+                font-size: 6px;
+            font-weight: 900;}
             .table tbody{
-                    font-size: 6px;}
+                    font-size: 6px;
+            font-weight: 900;}
             .table tbody p{
-           font-size: 6px;}
+           font-size: 6px;
+            font-weight: 900;}
            .bg-circles .circle-1{
             width: 20px;
             height: 20px;
@@ -179,11 +185,17 @@ Header section
         }
         @media(max-width:400px){
             .table thead tr{
-                font-size: 5px;}
+                font-size: 5px;
+                font-weight: 900;
+            }
             .table tbody{
-                    font-size: 5px;}
+                    font-size: 5px;
+                font-weight: 900;
+            }
             .table tbody p{
-           font-size: 5px;}
+           font-size: 5px;
+                font-weight: 900;
+            }
            .bg-circles .circle-1{
             width: 20px;
             height: 20px;
@@ -203,11 +215,14 @@ Header section
         }
         @media(max-width:350px){
             .table thead tr{
-                font-size: 4px;}
+                font-size: 4px;
+            font-weight: 900;}
             .table tbody{
-                    font-size: 4px;}
+                    font-size: 4px;
+            font-weight: 900;}
             .table tbody p{
-           font-size: 4px;}
+           font-size: 4px;
+            font-weight: 900;}
            .bg-circles .circle-1{
             width: 20px;
             height: 20px;
